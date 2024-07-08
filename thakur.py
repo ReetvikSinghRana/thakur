@@ -1,6 +1,6 @@
 import platform
 bit = platform.architecture()[0]
 if bit == '64bit':
-    import thakur64_enc
+    import thakur64enc
 elif bit == '32bit':
-    import thakur32enc_
+    import thakur32enc
